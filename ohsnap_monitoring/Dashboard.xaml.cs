@@ -24,9 +24,5 @@ namespace ohsnap_monitoring
             InitializeComponent();
         }
 
-        private void comboBoxDept_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
     }
 }

@@ -20,7 +20,9 @@ namespace ohsnap_monitoring
     /// </summary>
     public partial class MainWindow : Window
     {
-       
+
+        Dashboard dash = new Dashboard();
+        TaskEditor tedit = new TaskEditor();
 
         public MainWindow()
         {
@@ -34,7 +36,14 @@ namespace ohsnap_monitoring
             timeLabel.Content = System.DateTime.Now.AddHours(24).ToShortTimeString();
         }
 
-        
-        
+        private void dashboardButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainViewBox.Child = dash;
+        }
+
+        private void taskEditorButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainViewBox.Child = tedit;
+        }
     }
 }
