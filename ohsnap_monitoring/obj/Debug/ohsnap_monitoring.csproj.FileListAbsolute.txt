@@ -1,0 +1,14 @@
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\bin\Debug\ohsnap_monitoring.exe.config
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\bin\Debug\ohsnap_monitoring.exe
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\bin\Debug\ohsnap_monitoring.pdb
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.csprojResolveAssemblyReference.cache
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\MainWindow.g.cs
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\App.g.cs
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring_MarkupCompile.cache
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring_MarkupCompile.lref
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\MainWindow.baml
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.g.resources
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.Properties.Resources.resources
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.csproj.GenerateResource.Cache
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.exe
+D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.pdb

@@ -7,9 +7,10 @@
         mc:Ignorable="d"
         Title="Dashboard" Height="490" Width="1095">
     <Grid Width="1095" Height="490">
-        <GroupBox x:Name="groupBox" Header="Search" HorizontalAlignment="Left" Height="148" Margin="10,5,0,0" VerticalAlignment="Top" Width="488"/>
+        <GroupBox x:Name="groupBox" Header="Statistics" HorizontalAlignment="Left" Height="148" Margin="520,6,0,0" VerticalAlignment="Top" Width="557" FontSize="14"/>
+        <GroupBox x:Name="searchGroupBox" Header="Search" HorizontalAlignment="Left" Height="148" Margin="10,5,0,0" VerticalAlignment="Top" Width="488" FontSize="14"/>
         <ComboBox x:Name="comboBoxDept" HorizontalAlignment="Left" Height="28" Margin="20,57,0,0" VerticalAlignment="Top" Width="112" SelectionChanged="comboBoxDept_SelectionChanged"/>
-        <DataGrid x:Name="gridDashboard" HorizontalAlignment="Left" Height="295" Margin="10,153,0,0" VerticalAlignment="Top" Width="1067"/>
+        <DataGrid x:Name="gridDashboard" HorizontalAlignment="Left" Height="294" Margin="10,159,0,0" VerticalAlignment="Top" Width="1067"/>
         <ComboBox x:Name="comboBoxClient" HorizontalAlignment="Left" Margin="139,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
         <ComboBox x:Name="comboBoxSupervisor" HorizontalAlignment="Left" Margin="256,57,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
         <ComboBox x:Name="comboBoxStatus" HorizontalAlignment="Left" Margin="374,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
@@ -20,12 +21,23 @@
         <Label x:Name="employeeLabel" Content="Employee Name:" HorizontalAlignment="Left" Height="33" Margin="20,104,0,0" VerticalAlignment="Top" Width="124" FontSize="14" RenderTransformOrigin="0.189,0.465"/>
         <TextBox x:Name="empNameTextbox" HorizontalAlignment="Left" Height="33" Margin="149,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" FontSize="16"/>
         <Button x:Name="dboardSearchButton" Content="Search" HorizontalAlignment="Left" Height="33" Margin="374,102,0,0" VerticalAlignment="Top" Width="112" FontSize="14"/>
-        <Label x:Name="onlineEmpLabel" Content="Online Employees :" HorizontalAlignment="Left" Height="28" Margin="520,24,0,0" VerticalAlignment="Top" Width="118"/>
-        <Label x:Name="notinyetLabel" Content="Not In Yet :" HorizontalAlignment="Left" Height="28" Margin="520,57,0,0" VerticalAlignment="Top" Width="118"/>
-        <Label x:Name="absentEmpLabel" Content="Absent Employees :" HorizontalAlignment="Left" Height="28" Margin="520,90,0,0" VerticalAlignment="Top" Width="118"/>
-        <Label x:Name="lateLabel" Content="Late :" HorizontalAlignment="Left" Height="28" Margin="520,123,0,0" VerticalAlignment="Top" Width="118"/>
-        <Label x:Name="label" Content="Coffee Break :" HorizontalAlignment="Left" Height="28" Margin="818,56,0,0" VerticalAlignment="Top" Width="155"/>
-        <Label x:Name="lunchBreakLabel" Content="Lunch Break :" HorizontalAlignment="Left" Height="27" Margin="818,91,0,0" VerticalAlignment="Top" Width="122"/>
-        <Label x:Name="workingLabel" Content="Working :" HorizontalAlignment="Left" Height="28" Margin="818,24,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label x:Name="onlineEmpLabel" Content="Online Employees :" HorizontalAlignment="Left" Height="28" Margin="525,38,0,0" VerticalAlignment="Top" Width="129" FontSize="14"/>
+        <Label x:Name="notinyetLabel" Content="Not In Yet :" HorizontalAlignment="Left" Height="28" Margin="571,109,0,0" VerticalAlignment="Top" Width="79" RenderTransformOrigin="0.319,0.393" FontSize="14"/>
+        <Label x:Name="absentEmpLabel" Content="Absent Employees :" HorizontalAlignment="Left" Height="28" Margin="520,73,0,0" VerticalAlignment="Top" Width="134" FontSize="14"/>
+        <Label x:Name="lateLabel" Content="Late :" HorizontalAlignment="Left" Height="28" Margin="784,109,0,0" VerticalAlignment="Top" Width="42" RenderTransformOrigin="0.508,1.071" FontSize="14"/>
+        <Label x:Name="coffeeBrkLabel" Content="Coffee Break :" HorizontalAlignment="Left" Height="28" Margin="930,73,0,0" VerticalAlignment="Top" Width="95" FontSize="14"/>
+        <Label x:Name="lunchBreakLabel" Content="Lunch Break :" HorizontalAlignment="Left" Height="28" Margin="934,108,0,0" VerticalAlignment="Top" Width="95" FontSize="14"/>
+        <Label x:Name="workingLabel" Content="Working :" HorizontalAlignment="Left" Height="28" Margin="955,38,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.551,1.214" FontSize="14"/>
+        <Label x:Name="hourWrkLabel" Content="Hours Worked :" HorizontalAlignment="Left" Height="28" Margin="722,39,0,0" VerticalAlignment="Top" Width="108" FontSize="14"/>
+        <Label x:Name="totalIdleLabel" Content="Total Idle :" HorizontalAlignment="Left" Height="28" Margin="753,73,0,0" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.623,-3.099" FontSize="14"/>
+        <Label x:Name="onlineEmpValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="651,38,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.229,0.429" FontSize="14" Background="#FFDFDFEA"/>
+        <Label x:Name="absentEmpValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="651,73,0,0" VerticalAlignment="Top" Width="35" Background="#FFD8D8E5"/>
+        <Label x:Name="notInValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="651,109,0,0" VerticalAlignment="Top" Width="35" Background="#FFDCDCE5"/>
+        <Label x:Name="hourWrkValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="831,38,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.229,0.429" FontSize="14" Background="#FFDFDFEA"/>
+        <Label x:Name="totalIdleValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="831,73,0,0" VerticalAlignment="Top" Width="35" Background="#FFD8D8E5"/>
+        <Label x:Name="lateValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="831,109,0,0" VerticalAlignment="Top" Width="35" Background="#FFDCDCE5"/>
+        <Label x:Name="workingValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="1029,38,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.229,0.429" FontSize="14" Background="#FFDFDFEA"/>
+        <Label x:Name="CoffeeBrkValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="1029,73,0,0" VerticalAlignment="Top" Width="35" Background="#FFD8D8E5"/>
+        <Label x:Name="lunchBrkValueLabel" Content="" HorizontalAlignment="Left" Height="28" Margin="1029,109,0,0" VerticalAlignment="Top" Width="35" Background="#FFDCDCE5" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Window>
