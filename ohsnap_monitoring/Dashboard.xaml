@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ohsnap_monitoring"
         mc:Ignorable="d"
-        Title="Dashboard" Height="414" Width="1095">
+        Title="Dashboard" Height="490" Width="1095">
     <Grid Width="1095" Height="490">
         <GroupBox x:Name="groupBox" Header="Search" HorizontalAlignment="Left" Height="148" Margin="10,5,0,0" VerticalAlignment="Top" Width="488"/>
         <ComboBox x:Name="comboBoxDept" HorizontalAlignment="Left" Height="28" Margin="20,57,0,0" VerticalAlignment="Top" Width="112" SelectionChanged="comboBoxDept_SelectionChanged"/>
-        <DataGrid x:Name="gridDashboard" HorizontalAlignment="Left" Height="216" Margin="10,153,0,0" VerticalAlignment="Top" Width="1067"/>
+        <DataGrid x:Name="gridDashboard" HorizontalAlignment="Left" Height="295" Margin="10,153,0,0" VerticalAlignment="Top" Width="1067"/>
         <ComboBox x:Name="comboBoxClient" HorizontalAlignment="Left" Margin="139,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
         <ComboBox x:Name="comboBoxSupervisor" HorizontalAlignment="Left" Margin="256,57,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
         <ComboBox x:Name="comboBoxStatus" HorizontalAlignment="Left" Margin="374,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
