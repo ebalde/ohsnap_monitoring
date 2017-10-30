@@ -1,0 +1,31 @@
+﻿<Window x:Class="ohsnap_monitoring.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ohsnap_monitoring"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="414" Width="1095">
+    <Grid Width="1095" Height="490">
+        <GroupBox x:Name="groupBox" Header="Search" HorizontalAlignment="Left" Height="148" Margin="10,5,0,0" VerticalAlignment="Top" Width="488"/>
+        <ComboBox x:Name="comboBoxDept" HorizontalAlignment="Left" Height="28" Margin="20,57,0,0" VerticalAlignment="Top" Width="112" SelectionChanged="comboBoxDept_SelectionChanged"/>
+        <DataGrid x:Name="gridDashboard" HorizontalAlignment="Left" Height="216" Margin="10,153,0,0" VerticalAlignment="Top" Width="1067"/>
+        <ComboBox x:Name="comboBoxClient" HorizontalAlignment="Left" Margin="139,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
+        <ComboBox x:Name="comboBoxSupervisor" HorizontalAlignment="Left" Margin="256,57,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
+        <ComboBox x:Name="comboBoxStatus" HorizontalAlignment="Left" Margin="374,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
+        <Label x:Name="departmentLabel" Content="Department:" HorizontalAlignment="Left" Height="33" Margin="20,24,0,0" VerticalAlignment="Top" Width="112" FontSize="14"/>
+        <Label x:Name="clientCompanyLabel" Content="Client Company:" HorizontalAlignment="Left" Height="33" Margin="137,24,0,0" VerticalAlignment="Top" Width="113" FontSize="14" RenderTransformOrigin="1.808,0.394"/>
+        <Label x:Name="supervisorLabel" Content="Supervisor:" HorizontalAlignment="Left" Height="33" Margin="255,24,0,0" VerticalAlignment="Top" Width="113" FontSize="14"/>
+        <Label x:Name="statusLabel" Content="Status:" HorizontalAlignment="Left" Height="33" Margin="374,24,0,0" VerticalAlignment="Top" Width="112" FontSize="14" RenderTransformOrigin="-0.028,0.424"/>
+        <Label x:Name="employeeLabel" Content="Employee Name:" HorizontalAlignment="Left" Height="33" Margin="20,104,0,0" VerticalAlignment="Top" Width="124" FontSize="14" RenderTransformOrigin="0.189,0.465"/>
+        <TextBox x:Name="empNameTextbox" HorizontalAlignment="Left" Height="33" Margin="149,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" FontSize="16"/>
+        <Button x:Name="dboardSearchButton" Content="Search" HorizontalAlignment="Left" Height="33" Margin="374,102,0,0" VerticalAlignment="Top" Width="112" FontSize="14"/>
+        <Label x:Name="onlineEmpLabel" Content="Online Employees :" HorizontalAlignment="Left" Height="28" Margin="520,24,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="notinyetLabel" Content="Not In Yet :" HorizontalAlignment="Left" Height="28" Margin="520,57,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="absentEmpLabel" Content="Absent Employees :" HorizontalAlignment="Left" Height="28" Margin="520,90,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="lateLabel" Content="Late :" HorizontalAlignment="Left" Height="28" Margin="520,123,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="label" Content="Coffee Break :" HorizontalAlignment="Left" Height="28" Margin="818,56,0,0" VerticalAlignment="Top" Width="155"/>
+        <Label x:Name="lunchBreakLabel" Content="Lunch Break :" HorizontalAlignment="Left" Height="27" Margin="818,91,0,0" VerticalAlignment="Top" Width="122"/>
+        <Label x:Name="workingLabel" Content="Working :" HorizontalAlignment="Left" Height="28" Margin="818,24,0,0" VerticalAlignment="Top" Width="104"/>
+    </Grid>
+</Window>
