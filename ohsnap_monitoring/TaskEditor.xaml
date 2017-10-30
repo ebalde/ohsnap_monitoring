@@ -7,7 +7,17 @@
         mc:Ignorable="d"
         Title="TaskEditor" Height="490" Width="1095">
     <Grid>
-        <GroupBox x:Name="groupBox" Header="TASK EDITOR&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="254" Width="482"/>
+        <GroupBox x:Name="groupBox" Header="TASK EDITOR&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="254" Width="330"/>
+        <Label x:Name="StaffLabel" Content="Select Staff:" HorizontalAlignment="Left" Height="33" Margin="26,39,0,0" VerticalAlignment="Top" Width="112" FontSize="14"/>
+        <Label x:Name="TaskLabel" Content="Select Task:" HorizontalAlignment="Left" Height="33" Margin="26,123,0,0" VerticalAlignment="Top" Width="112" FontSize="14"/>
+        <ComboBox x:Name="comboBoxStaff" HorizontalAlignment="Left" Height="28" Margin="26,72,0,0" VerticalAlignment="Top" Width="295" SelectionChanged="comboBoxDept_SelectionChanged"/>
+        <ComboBox x:Name="comboBoxTask" HorizontalAlignment="Left" Height="28" Margin="27,156,0,0" VerticalAlignment="Top" Width="294" SelectionChanged="comboBoxDept_SelectionChanged"/>
+        <Button x:Name="addNewTaskButton" Content="ADD NEW TASK" HorizontalAlignment="Left" Margin="108,202,0,0" VerticalAlignment="Top" Width="124" Height="39"/>
+        <GroupBox x:Name="groupBox1" Header="Task Percentage Interval" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Width="330" Height="167"/>
+        <Button x:Name="percentageButton" Content="SAVE" HorizontalAlignment="Left" Margin="108,398,0,0" VerticalAlignment="Top" Width="124" Height="40"/>
+        <TextBox x:Name="percentageTextBox" HorizontalAlignment="Left" Height="63" Margin="59,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" FontSize="24" FontWeight="Bold" TextAlignment="Center"/>
+        <Label x:Name="minutesLabel" Content="minutes" HorizontalAlignment="Left" Margin="216,325,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <DataGrid x:Name="gridTaskEditor" HorizontalAlignment="Left" Margin="362,10,0,0" VerticalAlignment="Top" Height="440" Width="715"/>
 
     </Grid>
 </Window>
