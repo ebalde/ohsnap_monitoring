@@ -1,0 +1,48 @@
+﻿<Window x:Name="reportsForm" x:Class="ohsnap_monitoring.reports"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ohsnap_monitoring"
+        mc:Ignorable="d"
+        Title="REPORTS" Height="490" Width="1095" FontSize="14">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="272*"/>
+            <ColumnDefinition Width="272*"/>
+            <ColumnDefinition Width="272*"/>
+            <ColumnDefinition Width="271*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="groupBox1" Grid.Column="3" Header="ATTENDANCE REPORT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="251" BorderBrush="#FF0B0B0C"/>
+        <GroupBox x:Name="groupBox" Grid.Column="2" Header="ATTENDANCE REPORT BY CUT - OFF" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" BorderBrush="#FF030507"/>
+        <GroupBox x:Name="reportsSDARCgroupBox" Grid.Column="1" Header="SEND DAR TO CLIENT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" BorderThickness="1" FontSize="14" BorderBrush="#FF0A0A0B"/>
+        <GroupBox x:Name="reportsDARgroupBox" Header="DAILY ACTIVITY REPORT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" FontSize="16" BorderThickness="1" BorderBrush="#FF0C0C0F"/>
+        <ComboBox x:Name="comboBoxDARclient" HorizontalAlignment="Left" Height="28" Margin="22,95,0,0" VerticalAlignment="Top" Width="228"/>
+        <ComboBox x:Name="comboBoxReportDARstaff" HorizontalAlignment="Left" Height="28" Margin="22,174,0,0" VerticalAlignment="Top" Width="228" RenderTransformOrigin="0.443,1.464"/>
+        <DatePicker x:Name="darDatePicker" HorizontalAlignment="Left" Height="28" Margin="22,255,0,0" VerticalAlignment="Top" Width="228" FontSize="14" BorderBrush="Black"/>
+        <Button x:Name="darPdfButton" Content="DOWNLOAD PDF" HorizontalAlignment="Left" Height="28" Margin="52,350,0,0" VerticalAlignment="Top" Width="154" FontSize="14"/>
+        <Label x:Name="label" Content="Client Company :" HorizontalAlignment="Left" Height="28" Margin="22,67,0,0" VerticalAlignment="Top" Width="118" FontSize="14"/>
+        <Label x:Name="label1" Content="Staff Name :" HorizontalAlignment="Left" Height="28" Margin="22,146,0,0" VerticalAlignment="Top" Width="103" FontSize="14"/>
+        <Label x:Name="darDateLabel" Content="Date :" HorizontalAlignment="Left" Height="28" Margin="22,223,0,0" VerticalAlignment="Top" Width="103" FontSize="14"/>
+        <ComboBox x:Name="comboBoxSendDARcontactPerson" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="24,95,0,0" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="textBoxSendDARemailAdd" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="24,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" BorderThickness="1" Background="White" BorderBrush="Black"/>
+        <Button x:Name="sendDARbrowseButton" Content="Browse" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="173,223,0,0" VerticalAlignment="Top" Width="79" FontSize="14"/>
+        <Button x:Name="emailDARButton" Content="EMAIL DAR TO CLIENT" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="54,350,0,0" VerticalAlignment="Top" Width="154" FontSize="14"/>
+        <Label x:Name="sendDARContactPersonLabel" Content="Contact Person :" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="24,67,0,0" VerticalAlignment="Top" Width="154" FontSize="14"/>
+        <Label x:Name="sendDARenmailLabel" Content="E-Mail Address :" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="24,146,0,0" VerticalAlignment="Top" Width="141" FontSize="14"/>
+        <Label x:Name="sendDARAttachLabel" Content="Attached DAR :" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="24,223,0,0" VerticalAlignment="Top" Width="108" FontSize="14"/>
+        <Label x:Name="sendDARattachFilenameLabel" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="24,255,0,0" VerticalAlignment="Top" Width="228" BorderThickness="1" BorderBrush="#FF0F0F11"/>
+        <ComboBox x:Name="comboBoxAttendanceCutoffDept" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="23,95,0,0" VerticalAlignment="Top" Width="228"/>
+        <DatePicker x:Name="attendanceCutoffDatefromDatePicker" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="23,174,0,0" VerticalAlignment="Top" Width="228" BorderBrush="Black"/>
+        <DatePicker x:Name="attendanceCutoffDatetoDatePicker" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="23,255,0,0" VerticalAlignment="Top" Width="228" BorderBrush="Black"/>
+        <Button x:Name="button" Content="DOWNLOAD PDF" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="58,350,0,0" VerticalAlignment="Top" Width="154" RenderTransformOrigin="0.411,0.667"/>
+        <Label x:Name="attendanceCutoffDeptLabel" Content="Department :" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="23,67,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label x:Name="attendanceCutoffDatefrLabel" Content="Date From :" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="23,146,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label x:Name="attendanceCutoffDatetoLabel" Content="Date To :" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="23,223,0,0" VerticalAlignment="Top" Width="154"/>
+        <ComboBox x:Name="comboBoxAttendanceReportDept" Grid.Column="3" HorizontalAlignment="Left" Height="28" Margin="20,95,0,0" VerticalAlignment="Top" Width="228"/>
+        <DatePicker x:Name="attendanceReportDatePicker" Grid.Column="3" HorizontalAlignment="Left" Height="28" Margin="20,174,0,0" VerticalAlignment="Top" Width="228" BorderBrush="Black"/>
+        <Button x:Name="attendanceReportPdfButton" Content="DOWNLOAD PDF" Grid.Column="3" HorizontalAlignment="Left" Height="28" Margin="57,350,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label x:Name="label2" Content="Department :" Grid.Column="3" HorizontalAlignment="Left" Height="28" Margin="20,67,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label x:Name="label3" Content="Date :" Grid.Column="3" HorizontalAlignment="Left" Height="28" Margin="20,146,0,0" VerticalAlignment="Top" Width="154"/>
+    </Grid>
+</Window>

@@ -38,5 +38,14 @@ namespace ohsnap_monitoring
             
         }
 
+        private void taskEditorButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void dashboardButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
