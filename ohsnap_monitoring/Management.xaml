@@ -1,0 +1,25 @@
+﻿<Window x:Class="ohsnap_monitoring.Management"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ohsnap_monitoring"
+        mc:Ignorable="d"
+        Title="Management" Height="490" Width="1095">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="Miscelleneous" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="236" Width="244"/>
+
+        <GroupBox x:Name="groupBox1" Header="Editors" HorizontalAlignment="Left" Margin="10,251,0,0" VerticalAlignment="Top" Height="199" Width="244"/>
+        <Button x:Name="mgtReportButton" Content="MANAGEMENT REPORT" HorizontalAlignment="Left" Margin="32,41,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="assignClientButton" Content="ASSIGN CLIENT" HorizontalAlignment="Left" Margin="32,80,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="timeKeepingButton" Content="TIMEKEEPING" HorizontalAlignment="Left" Margin="32,121,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="schedOverRideButton" Content="SCHEDULE OVERRIDE" HorizontalAlignment="Left" Margin="32,161,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="timeInMonitorButton" Content="TIME IN MONITORING" HorizontalAlignment="Left" Margin="32,202,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="clientEditorButton" Content="CLIENT EDITOR" HorizontalAlignment="Left" Margin="32,283,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="deptEditorButton" Content="DEPARTMENT EDITOR" HorizontalAlignment="Left" Margin="32,324,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="schedEditorButton" Content="SCHEDULE EDITOR" HorizontalAlignment="Left" Margin="32,364,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="attendanceEditorButton" Content="ATTENDANCE EDITOR" HorizontalAlignment="Left" Margin="32,403,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <DataGrid x:Name="gridManagement" HorizontalAlignment="Left" Margin="272,10,0,0" VerticalAlignment="Top" Height="440" Width="805"/>
+
+    </Grid>
+</Window>
