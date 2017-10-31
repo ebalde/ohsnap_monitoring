@@ -33,5 +33,14 @@ namespace ohsnap_monitoring
             timeLabel.Content = System.DateTime.Now.AddHours(24).ToShortTimeString();
         }
 
+        private void taskEditorButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void dashboardButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
