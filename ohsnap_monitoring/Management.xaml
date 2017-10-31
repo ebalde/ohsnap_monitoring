@@ -10,8 +10,8 @@
         <GroupBox x:Name="groupBox" Header="Miscelleneous" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="236" Width="244"/>
 
         <GroupBox x:Name="groupBox1" Header="Editors" HorizontalAlignment="Left" Margin="10,251,0,0" VerticalAlignment="Top" Height="199" Width="244"/>
-        <Button x:Name="mgtReportButton" Content="MANAGEMENT REPORT" HorizontalAlignment="Left" Margin="32,41,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
-        <Button x:Name="assignClientButton" Content="ASSIGN CLIENT" HorizontalAlignment="Left" Margin="32,80,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <Button x:Name="mgtReportButton" Content="MANAGEMENT REPORT" HorizontalAlignment="Left" Margin="32,41,0,0" VerticalAlignment="Top" Width="192" Height="28" Click="mgtReportButton_Click"/>
+        <Button x:Name="assignClientButton" Content="ASSIGN CLIENT" HorizontalAlignment="Left" Margin="32,80,0,0" VerticalAlignment="Top" Width="192" Height="28" Click="assignClientButton_Click"/>
         <Button x:Name="timeKeepingButton" Content="TIMEKEEPING" HorizontalAlignment="Left" Margin="32,121,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
         <Button x:Name="schedOverRideButton" Content="SCHEDULE OVERRIDE" HorizontalAlignment="Left" Margin="32,161,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
         <Button x:Name="timeInMonitorButton" Content="TIME IN MONITORING" HorizontalAlignment="Left" Margin="32,202,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
@@ -19,7 +19,7 @@
         <Button x:Name="deptEditorButton" Content="DEPARTMENT EDITOR" HorizontalAlignment="Left" Margin="32,324,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
         <Button x:Name="schedEditorButton" Content="SCHEDULE EDITOR" HorizontalAlignment="Left" Margin="32,364,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
         <Button x:Name="attendanceEditorButton" Content="ATTENDANCE EDITOR" HorizontalAlignment="Left" Margin="32,403,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
-        <DataGrid x:Name="gridManagement" HorizontalAlignment="Left" Margin="272,10,0,0" VerticalAlignment="Top" Height="440" Width="805"/>
+        <Viewbox x:Name="viewBoxManagement" HorizontalAlignment="Left" Height="440" Margin="274,10,0,0" VerticalAlignment="Top" Width="803"/>
 
     </Grid>
 </Window>

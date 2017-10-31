@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\App.xaml
-61373745473
+8194720494
 
-14-464637899
+16-86321580
 15-1927921285
-Attendance.xaml;Dashboard.xaml;MainWindow.xaml;Management.xaml;TaskEditor.xaml;UserControl.xaml;
+Attendance.xaml;Dashboard.xaml;MainWindow.xaml;Management.xaml;managementForms\AssignClient.xaml;managementForms\ManagementReport.xaml;TaskEditor.xaml;UserControl.xaml;
 
-True
+False
 
