@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\
 ohsnap_monitoring
 none
 false
 DEBUG;TRACE
-D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\App.xaml
-11151548125
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\App.xaml
+3-200907161
 
-5-2017746502
-13738642453
-MainWindow.xaml;
+7-150754786
+14598183689
+Dashboard.xaml;MainWindow.xaml;TaskEditor.xaml;
 
 False
 

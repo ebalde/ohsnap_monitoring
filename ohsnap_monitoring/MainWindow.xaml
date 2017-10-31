@@ -16,11 +16,11 @@
         </Viewbox>
         <ToolBarPanel HorizontalAlignment="Left" Height="36" Margin="151,76,0,0" VerticalAlignment="Top" Width="778" Grid.ColumnSpan="2"/>
         <StackPanel HorizontalAlignment="Left" Height="36" Margin="144,76,0,0" VerticalAlignment="Top" Width="138"/>
-        <Button x:Name="dashboardButton" Content="          Dashboard" HorizontalAlignment="Left" Height="36" Margin="144,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <Button x:Name="dashboardButton" Content="          Dashboard" HorizontalAlignment="Left" Height="36" Margin="144,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Click="dashboardButton_Click"/>
         <Image x:Name="dashboardImage" HorizontalAlignment="Left" Height="36" Margin="146,76,0,0" VerticalAlignment="Top" Width="43" Source="images/dashboard_icon_r.png" Stretch="Fill"/>
         <Button x:Name="staffButton" Content="          Staff" HorizontalAlignment="Left" Height="36" Margin="279,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16"/>
         <Image x:Name="satffImage" HorizontalAlignment="Left" Height="36" Margin="287,76,0,0" VerticalAlignment="Top" Width="43" Source="images/staff.png" Stretch="Fill"/>
-        <Button x:Name="taskEditorButton" Content="        Task Editor" HorizontalAlignment="Left" Height="36" Margin="414,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Grid.ColumnSpan="2"/>
+        <Button x:Name="taskEditorButton" Content="        Task Editor" HorizontalAlignment="Left" Height="36" Margin="414,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Grid.ColumnSpan="2" Click="taskEditorButton_Click"/>
         <Image x:Name="taskEditorImage" HorizontalAlignment="Left" Height="35" Margin="418,76,0,0" VerticalAlignment="Top" Width="39" Source="images/taskeditor.png" Stretch="Fill"/>
         <Button x:Name="reportButton" Content="     Report" HorizontalAlignment="Left" Height="36" Margin="22.333,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Grid.Column="1"/>
         <Image x:Name="reportImage" HorizontalAlignment="Left" Height="31" Margin="23.333,78,0,0" VerticalAlignment="Top" Width="38" Source="images/report.png" Stretch="Fill" Grid.Column="1"/>
@@ -32,8 +32,8 @@
         <Image x:Name="logOffImage" HorizontalAlignment="Left" Height="31" Margin="426.333,78,0,0" VerticalAlignment="Top" Width="43" Source="images/logout.png" Stretch="Fill" Grid.Column="1"/>
         <Label x:Name="welcomeLabel" Content="Welcome" HorizontalAlignment="Left" Height="36" Margin="267.333,1,0,0" VerticalAlignment="Top" Width="92" FontSize="18" FontWeight="Bold" Grid.Column="1"/>
         <Label x:Name="userLabel" Content="ZhaZha" HorizontalAlignment="Left" Height="36" Margin="364.333,1,0,0" VerticalAlignment="Top" Width="193" FontWeight="Bold" FontSize="20" FontStyle="Italic" Grid.Column="1"/>
-        <Label x:Name="timeLabel" Content="" HorizontalAlignment="Left" Height="34" Margin="267.333,37,0,0" VerticalAlignment="Top" Width="290" Grid.Column="1" Background="#FFD1D1DF"/>
-        <Viewbox x:Name="viewBox" HorizontalAlignment="Left" Height="490" Margin="10,129,0,0" VerticalAlignment="Top" Width="1095" Grid.ColumnSpan="2"/>
+        <Label x:Name="timeLabel" Content="" HorizontalAlignment="Left" Height="34" Margin="267.333,37,0,0" VerticalAlignment="Top" Width="290" Grid.Column="1"/>
+        <Viewbox x:Name="mainViewBox" HorizontalAlignment="Left" Height="490" Margin="10,129,0,0" VerticalAlignment="Top" Width="1095" Grid.ColumnSpan="2"/>
 
 
 

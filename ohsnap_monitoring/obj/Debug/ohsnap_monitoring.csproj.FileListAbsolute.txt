@@ -12,3 +12,21 @@ D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_m
 D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.csproj.GenerateResource.Cache
 D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.exe
 D:\EBALDZ\PROJECT\OHSNAP\NEW OHSNAP\OHSNAP_MONITORING\ohsnap_monitoring\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.pdb
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\bin\Debug\ohsnap_monitoring.exe.config
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.exe
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.pdb
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.csprojResolveAssemblyReference.cache
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\Dashboard.g.cs
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\MainWindow.g.cs
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\TaskEditor.g.cs
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\App.g.cs
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring_MarkupCompile.cache
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring_MarkupCompile.lref
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\bin\Debug\ohsnap_monitoring.exe
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\bin\Debug\ohsnap_monitoring.pdb
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\Dashboard.baml
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\MainWindow.baml
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\TaskEditor.baml
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.g.resources
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.Properties.Resources.resources
+C:\Users\AlexOsiasOH\Source\Repos\ohsnap_monitoring2\ohsnap_monitoring\obj\Debug\ohsnap_monitoring.csproj.GenerateResource.Cache

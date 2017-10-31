@@ -9,7 +9,7 @@
     <Grid Width="1095" Height="490">
         <GroupBox x:Name="groupBox" Header="Statistics" HorizontalAlignment="Left" Height="148" Margin="520,6,0,0" VerticalAlignment="Top" Width="557" FontSize="14"/>
         <GroupBox x:Name="searchGroupBox" Header="Search" HorizontalAlignment="Left" Height="148" Margin="10,5,0,0" VerticalAlignment="Top" Width="488" FontSize="14"/>
-        <ComboBox x:Name="comboBoxDept" HorizontalAlignment="Left" Height="28" Margin="20,57,0,0" VerticalAlignment="Top" Width="112" SelectionChanged="comboBoxDept_SelectionChanged"/>
+        <ComboBox x:Name="comboBoxDept" HorizontalAlignment="Left" Height="28" Margin="20,57,0,0" VerticalAlignment="Top" Width="112"/>
         <DataGrid x:Name="gridDashboard" HorizontalAlignment="Left" Height="294" Margin="10,159,0,0" VerticalAlignment="Top" Width="1067"/>
         <ComboBox x:Name="comboBoxClient" HorizontalAlignment="Left" Margin="139,56,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>
         <ComboBox x:Name="comboBoxSupervisor" HorizontalAlignment="Left" Margin="256,57,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.05,-0.364" Height="28"/>

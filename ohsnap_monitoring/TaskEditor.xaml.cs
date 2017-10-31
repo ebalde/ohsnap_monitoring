@@ -10,28 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-//using MySql.Data.MySqlClient;
+
 namespace ohsnap_monitoring
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for TaskEditor.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TaskEditor : Window
     {
-
-        public MainWindow()
+        public TaskEditor()
         {
             InitializeComponent();
-
         }
-
-        private void displayTime()
-        {
-           
-            timeLabel.Content = System.DateTime.Now.AddHours(24).ToShortTimeString();
-        }
-
     }
 }

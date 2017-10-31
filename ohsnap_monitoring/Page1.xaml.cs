@@ -12,26 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//using MySql.Data.MySqlClient;
+
 namespace ohsnap_monitoring
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page1 : Page
     {
-
-        public MainWindow()
+        public Page1()
         {
             InitializeComponent();
-
         }
-
-        private void displayTime()
-        {
-           
-            timeLabel.Content = System.DateTime.Now.AddHours(24).ToShortTimeString();
-        }
-
     }
 }
