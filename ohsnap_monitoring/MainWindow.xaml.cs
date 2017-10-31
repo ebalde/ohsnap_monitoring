@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Forms;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -18,19 +19,23 @@ namespace ohsnap_monitoring
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
     public partial class MainWindow : Window
     {
+        Dashboard dash = new Dashboard();
+        TaskEditor tEdit = new TaskEditor();
+        Management manage = new Management();
+        UserControl uControl = new UserControl();
 
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void displayTime()
         {
-           
             timeLabel.Content = System.DateTime.Now.AddHours(24).ToShortTimeString();
+            
         }
 
     }
