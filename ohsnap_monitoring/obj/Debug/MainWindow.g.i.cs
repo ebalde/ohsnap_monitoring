@@ -250,6 +250,12 @@ namespace ohsnap_monitoring {
             return;
             case 7:
             this.taskEditorButton = ((System.Windows.Controls.Button)(target));
+            
+            #line 23 "..\..\MainWindow.xaml"
+            this.taskEditorButton.Click += new System.Windows.RoutedEventHandler(this.taskEditorButton_Click);
+            
+            #line default
+            #line hidden
             return;
             case 8:
             this.taskEditorImage = ((System.Windows.Controls.Image)(target));

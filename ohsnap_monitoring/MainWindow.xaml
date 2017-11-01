@@ -20,7 +20,7 @@
         <Image x:Name="dashboardImage" HorizontalAlignment="Left" Height="36" Margin="146,76,0,0" VerticalAlignment="Top" Width="43" Source="images/dashboard_icon_r.png" Stretch="Fill"/>
         <Button x:Name="staffButton" Content="          Staff" HorizontalAlignment="Left" Height="36" Margin="279,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16"/>
         <Image x:Name="satffImage" HorizontalAlignment="Left" Height="36" Margin="287,76,0,0" VerticalAlignment="Top" Width="43" Source="images/staff.png" Stretch="Fill"/>
-        <Button x:Name="taskEditorButton" Content="        Task Editor" HorizontalAlignment="Left" Height="36" Margin="414,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Grid.ColumnSpan="2"/>
+        <Button x:Name="taskEditorButton" Content="        Task Editor" HorizontalAlignment="Left" Height="36" Margin="414,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Grid.ColumnSpan="2" Click="taskEditorButton_Click"/>
         <Image x:Name="taskEditorImage" HorizontalAlignment="Left" Height="35" Margin="418,76,0,0" VerticalAlignment="Top" Width="39" Source="images/taskeditor.png" Stretch="Fill"/>
         <Button x:Name="reportButton" Content="     Report" HorizontalAlignment="Left" Height="36" Margin="22.333,76,0,0" VerticalAlignment="Top" Width="130" FontSize="16" Grid.Column="1"/>
         <Image x:Name="reportImage" HorizontalAlignment="Left" Height="31" Margin="23.333,78,0,0" VerticalAlignment="Top" Width="38" Source="images/report.png" Stretch="Fill" Grid.Column="1"/>
