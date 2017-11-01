@@ -40,7 +40,10 @@ namespace ohsnap_monitoring
 
         private void taskEditorButton_Click(object sender, RoutedEventArgs e)
         {
-
+            mainViewBox = new Viewbox();
+            var myGrid = new Grid();
+            myGrid.Children.Add(tEdit);
+            mainViewBox.Child = myGrid;
         }
 
         private void dashboardButton_Click(object sender, RoutedEventArgs e)

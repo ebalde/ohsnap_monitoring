@@ -66,12 +66,6 @@
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
-    <Compile Include="managementForms\AssignClient.xaml.cs">
-      <DependentUpon>AssignClient.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="managementForms\ManagementReport.xaml.cs">
-      <DependentUpon>ManagementReport.xaml</DependentUpon>
-    </Compile>
     <Compile Include="TaskEditor.xaml.cs">
       <DependentUpon>TaskEditor.xaml</DependentUpon>
     </Compile>
@@ -102,14 +96,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Management.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="managementForms\AssignClient.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="managementForms\ManagementReport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
