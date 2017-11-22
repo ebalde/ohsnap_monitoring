@@ -1,0 +1,24 @@
+﻿<Window x:Class="ohsnap_monitoring.assignClientCode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ohsnap_monitoring"
+        mc:Ignorable="d"
+        Title="assignClientCode" Height="506" Width="514">
+    <Grid Margin="10,0,11,0">
+        <GroupBox Header="Assign Client Code" HorizontalAlignment="Left" Height="153" VerticalAlignment="Top" Width="485" FontSize="14" FontWeight="Bold" Margin="0,4,0,0" Foreground="#FF1D00FF" BorderBrush="#FF110909"/>
+        <ComboBox x:Name="ComboBoxaccEmployeeList" HorizontalAlignment="Left" Height="28" Margin="120,35,0,0" VerticalAlignment="Top" Width="355"/>
+        <ComboBox x:Name="ComboBoxClientList" HorizontalAlignment="Left" Height="28" Margin="120,78,0,0" VerticalAlignment="Top" Width="355"/>
+        <Label Content="Employee List" HorizontalAlignment="Left" Height="32" Margin="10,35,0,0" VerticalAlignment="Top" Width="105" FontSize="14" VerticalContentAlignment="Center"/>
+        <Label Content="Client List" HorizontalAlignment="Left" Height="28" Margin="10,78,0,0" VerticalAlignment="Top" Width="91" FontSize="14"/>
+        <DataGrid x:Name="DataGridClientCodes" Height="267" Margin="0,187,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="accSaveButton" Content="     Save" HorizontalAlignment="Left" Height="28" Margin="246,115,0,0" VerticalAlignment="Top" Width="104" FontSize="14"/>
+        <Button x:Name="clientCodeEditorButton" Content="Client Code Editor" HorizontalAlignment="Left" Height="28" Margin="371,115,0,0" VerticalAlignment="Top" Width="104"/>
+        <Button x:Name="accRefreshButton" Content="     Refresh" HorizontalAlignment="Left" Height="28" Margin="120,115,0,0" VerticalAlignment="Top" Width="104" FontSize="14"/>
+        <Label Content="Client Codes" HorizontalAlignment="Left" Height="28" Margin="0,159,0,0" VerticalAlignment="Top" Width="91" FontSize="14" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="27" Margin="125,116,0,0" VerticalAlignment="Top" Width="31" Source="images/refresh.png"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="252,117,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="5.419,1.774" Source="images/save floppy.png"/>
+
+    </Grid>
+</Window>

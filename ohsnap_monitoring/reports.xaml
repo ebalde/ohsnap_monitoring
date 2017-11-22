@@ -13,10 +13,10 @@
             <ColumnDefinition Width="272*"/>
             <ColumnDefinition Width="271*"/>
         </Grid.ColumnDefinitions>
-        <GroupBox x:Name="groupBox1" Grid.Column="3" Header="ATTENDANCE REPORT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="251" BorderBrush="#FF0B0B0C"/>
-        <GroupBox x:Name="groupBox" Grid.Column="2" Header="ATTENDANCE REPORT BY CUT - OFF" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" BorderBrush="#FF030507"/>
-        <GroupBox x:Name="reportsSDARCgroupBox" Grid.Column="1" Header="SEND DAR TO CLIENT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" BorderThickness="1" FontSize="14" BorderBrush="#FF0A0A0B"/>
-        <GroupBox x:Name="reportsDARgroupBox" Header="DAILY ACTIVITY REPORT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" FontSize="16" BorderThickness="1" BorderBrush="#FF0C0C0F"/>
+        <GroupBox x:Name="reportsDARgroupBox" Header="DAILY ACTIVITY REPORT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" FontSize="12" BorderThickness="1" BorderBrush="#FF0C0C0F" Foreground="#FF1D00FF" FontWeight="Bold"/>
+        <GroupBox x:Name="groupBox1" Grid.Column="3" Header="ATTENDANCE REPORT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="251" BorderBrush="#FF0B0B0C" Foreground="#FF1D00FF" FontWeight="Bold" FontSize="12"/>
+        <GroupBox x:Name="groupBox" Grid.Column="2" Header="ATTENDANCE REPORT BY CUT - OFF" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" BorderBrush="#FF030507" FontWeight="Bold" Foreground="#FF1D00FF" FontSize="12"/>
+        <GroupBox x:Name="reportsSDARCgroupBox" Grid.Column="1" Header="SEND DAR TO CLIENT" HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" BorderThickness="1" FontSize="12" BorderBrush="#FF0A0A0B" FontWeight="Bold" Foreground="#FF1D00FF"/>
         <ComboBox x:Name="comboBoxDARclient" HorizontalAlignment="Left" Height="28" Margin="22,95,0,0" VerticalAlignment="Top" Width="228"/>
         <ComboBox x:Name="comboBoxReportDARstaff" HorizontalAlignment="Left" Height="28" Margin="22,174,0,0" VerticalAlignment="Top" Width="228" RenderTransformOrigin="0.443,1.464"/>
         <DatePicker x:Name="darDatePicker" HorizontalAlignment="Left" Height="28" Margin="22,255,0,0" VerticalAlignment="Top" Width="228" FontSize="14" BorderBrush="Black"/>

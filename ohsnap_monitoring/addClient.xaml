@@ -1,0 +1,28 @@
+﻿<Window x:Class="ohsnap_monitoring.addClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ohsnap_monitoring"
+        mc:Ignorable="d" Height="307" Width="436" FontSize="14" Icon="images/add_file_icon.png">
+    <Grid>
+        <Label Content="Client Name :" HorizontalAlignment="Left" Height="27" Margin="4,59,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold"/>
+        <Label Content="Add Client" Height="45" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" HorizontalContentAlignment="Center" Foreground="#FF1D00FF" BorderBrush="Black" BorderThickness="0,0,0,1" HorizontalAlignment="Left" Width="428"/>
+        <TextBox x:Name="acClientNameTextBox" HorizontalAlignment="Left" Height="28" Margin="112,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="306" BorderBrush="Black"/>
+        <TextBox x:Name="acContactName1TextBox" HorizontalAlignment="Left" Height="28" Margin="5,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" BorderBrush="Black"/>
+        <TextBox x:Name="acContactEmail1TextBox" HorizontalAlignment="Left" Height="28" Margin="212,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" BorderBrush="Black"/>
+        <Label Content="Client E-Mail" HorizontalAlignment="Left" Height="30" Margin="212,136,0,0" VerticalAlignment="Top" Width="206" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label Content="Contact Name" HorizontalAlignment="Left" Height="30" Margin="5,136,0,0" VerticalAlignment="Top" Width="206" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Button x:Name="acAddRowButton" Content="      Add Row" HorizontalAlignment="Left" Height="28" Margin="213,101,0,0" VerticalAlignment="Top" Width="97"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="217,104,0,0" VerticalAlignment="Top" Width="23" Source="images/red-pluspng.png"/>
+        <Button x:Name="acSaveButton" Content="Save" HorizontalAlignment="Left" Height="28" Margin="317,101,0,0" VerticalAlignment="Top" Width="97"/>
+        <Image HorizontalAlignment="Left" Height="28" Margin="317,101,0,0" VerticalAlignment="Top" Width="30" Source="images/save floppy.png"/>
+
+
+
+    </Grid>
+
+
+
+
+</Window>

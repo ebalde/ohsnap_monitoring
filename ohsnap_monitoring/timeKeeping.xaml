@@ -1,0 +1,35 @@
+﻿<Window x:Class="ohsnap_monitoring.timeKeeping"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ohsnap_monitoring"
+        mc:Ignorable="d"
+        Title="timeKeeping" Height="490" Width="1095">
+    <Grid>
+        <DataGrid x:Name="DataGridTimekeeping" HorizontalAlignment="Left" Height="327" Margin="10,123,0,0" VerticalAlignment="Top" Width="1067" BorderBrush="#FF110909"/>
+        <Label Content="Select Date" HorizontalAlignment="Left" Height="28" Margin="320,70,0,0" VerticalAlignment="Top" Width="84" FontSize="14"/>
+        <DatePicker x:Name="timekeepingDatePicker" HorizontalAlignment="Left" Height="28" Margin="409,70,0,0" VerticalAlignment="Top" Width="228" FontSize="14">
+            <DatePicker.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                    <GradientStop Color="#FFA3AEB9" Offset="0"/>
+                    <GradientStop Color="#FF8399A9" Offset="0.375"/>
+                    <GradientStop Color="#FF718597" Offset="0.375"/>
+                    <GradientStop Color="#FF110909" Offset="1"/>
+                </LinearGradientBrush>
+            </DatePicker.BorderBrush>
+        </DatePicker>
+        <Button x:Name="timekeepingDisplayButton" Content="Display" HorizontalAlignment="Left" Height="28" Margin="667,70,0,0" VerticalAlignment="Top" Width="118" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFB8B8B8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="TIME KEEPING" Height="39" Margin="380,3,380,0" VerticalAlignment="Top" Foreground="#FF1100FF" BorderBrush="#FF030315" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center" BorderThickness="0,0,0,2"/>
+
+    </Grid>
+</Window>

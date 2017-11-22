@@ -60,23 +60,91 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="addClient.xaml.cs">
+      <DependentUpon>addClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="assignClient.xaml.cs">
+      <DependentUpon>assignClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="assignClientCode.xaml.cs">
+      <DependentUpon>assignClientCode.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Attendance.xaml.cs">
       <DependentUpon>Attendance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="clientCodeEditor.xaml.cs">
+      <DependentUpon>clientCodeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="clientEditor.xaml.cs">
+      <DependentUpon>clientEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="departmentEditor.xaml.cs">
+      <DependentUpon>departmentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="editClient.xaml.cs">
+      <DependentUpon>editClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="editClientCode.xaml.cs">
+      <DependentUpon>editClientCode.xaml</DependentUpon>
     </Compile>
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
+    <Compile Include="managementReport.xaml.cs">
+      <DependentUpon>managementReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reports.xaml.cs">
+      <DependentUpon>reports.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TaskEditor.xaml.cs">
       <DependentUpon>TaskEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeInMonitoring.xaml.cs">
+      <DependentUpon>TimeInMonitoring.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="timeKeeping.xaml.cs">
+      <DependentUpon>timeKeeping.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControl.xaml.cs">
       <DependentUpon>UserControl.xaml</DependentUpon>
     </Compile>
+    <Page Include="addClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="assignClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="assignClientCode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Attendance.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="clientCodeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="clientEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Dashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="departmentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="editClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="editClientCode.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -99,7 +167,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="managementReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reports.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="TaskEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TimeInMonitoring.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="timeKeeping.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -158,6 +242,27 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\save floppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\downloads-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\add_file_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\delete_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\red-pluspng.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
